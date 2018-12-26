@@ -43,6 +43,5 @@ const Discord = require("discord.js");
                                                                 message.channel.sendEmbed(embed4);
                                                       message.delete();
 }
-});
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
