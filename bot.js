@@ -20,7 +20,7 @@ const Discord = require("discord.js");
             
                                                   });
    kboosh.on("message", message => {
-       var prefix = "%";
+       var prefix = "#";
  
              var args = message.content.substring(prefix.length).split(" ");
                 if (message.content.startsWith(prefix + "b")) {
@@ -45,4 +45,4 @@ const Discord = require("discord.js");
                             }
                           }
 });
-kboosh.login(kbooshtoken);
+client.login(process.env.BOT_TOKEN);
